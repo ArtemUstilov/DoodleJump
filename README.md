@@ -1,1 +1,1 @@
-echo # DoodleJump
+# Doodle jump
