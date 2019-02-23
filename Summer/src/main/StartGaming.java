@@ -24,6 +24,9 @@ public class StartGaming {
 		SwingUtilities.invokeLater(new Runnable() {
 	        public void run() {
 		game = new Game();
+		for(int i=0;i<10;i++) {
+			System.out.println("Hello!!!");
+		}
 		game.getPanel().setVisible(true);
 		initial(game);
         } });
